@@ -15,6 +15,6 @@ class ValidatePasswordTest extends TestCase {
     public function testValidateLength() {
         // Create the test.
         $validatePass = new ValidatePassword();
-        $this->assertFalse($validatePass->validateLength('12345678'));
+        $this->assertFalse($validatePass->validateLength('12345678911245464789416485'));
     }
 }
