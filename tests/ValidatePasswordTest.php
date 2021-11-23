@@ -4,6 +4,9 @@
 use \PHPUnit\Framework\TestCase;
 
 
+/**
+ * Class ValidatePasswordTest
+ */
 class ValidatePasswordTest extends TestCase {
 
     public function testValidateLength() {
