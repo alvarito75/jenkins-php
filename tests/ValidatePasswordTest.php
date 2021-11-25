@@ -36,5 +36,9 @@ class ValidatePasswordTest extends TestCase {
         // Create the test 6.
         $sixthTest = new ValidatePassword();
         $this->assertTrue($sixthTest->validateLength('/5882*/*Ω∑'));
+
+        // Create the test 7.
+        $seventhTest = new ValidatePassword();
+        $this->assertTrue($seventhTest->validateLength('exposicion'));
     }
 }
