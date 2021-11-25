@@ -29,7 +29,7 @@ class ValidatePasswordTest extends TestCase {
         $fourthTest = new ValidatePassword();
         $this->assertTrue($fourthTest->validateLength('12345678901234567890'));
 
-        // Create the test 4.
+        // Create the test 5.
         $fifthTest = new ValidatePassword();
         $this->assertTrue($fifthTest->validateLength('cochabamba'));
     }
